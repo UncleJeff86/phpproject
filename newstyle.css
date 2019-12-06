@@ -83,22 +83,8 @@ div.machine {
 	border: 0px;
 	background:  no-repeat center;
 }
-div.thankyou {
-	margin: auto;
-	max-width: 60%;
-	min-width: 300px;
-	height: auto;
-	border: dotted black 2px;
-}
 
 
-img.thanks {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 250px;
-	height: 200px;
-}
 /*---------below here is the form properties---------*/
 
 input {
