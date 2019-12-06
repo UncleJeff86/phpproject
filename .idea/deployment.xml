@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Azure FTP Jeff" uploadOnCheckin="20c2221f-0f93-4f38-968b-1724526b0466">
+    <serverData>
+      <paths name="Azure FTP Jeff">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="Azure FTP Jeff" />
+  </component>
+</project>
