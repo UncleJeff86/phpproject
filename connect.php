@@ -25,6 +25,6 @@ $dbc = mysqli_connect($servername, $username, $password, $database)
 or die('Error connecting.');
         #displays connection error
 
-
+#hello
 
 ?>
