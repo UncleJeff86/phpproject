@@ -1,0 +1,163 @@
+body {
+	color: black;
+	background-color: white;
+	font-size: 100%; 2.5em;
+	font-variant: small-caps;
+	font-weight: 400;
+	font-family: Open Sans,sans-serif;
+}
+p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+p.report {
+	font-weight: bold;
+	font-size: 20px;
+}
+p.deleted {
+	font-weight: bold;
+}
+
+img.purkupihaoy {
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	height: auto;
+	display: block;
+	padding: 15px;
+
+}
+
+img.machine {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+/*-------below here is the div controls-------*/
+div.logo {
+	margin: auto;
+	max-width: 700px;
+	min-width: 468px;
+	height: auto;
+}
+div.mainbox {
+	border: solid green 14px;
+	outline: solid orange 10px;
+	max-width: 700px;
+	min-width: 590px;
+	height: 80%;
+	background-color: orange;
+	margin: auto;
+	}
+div.nav {
+	margin: auto;
+	max-width: 68%;
+	min-width: 438px;
+	min-height: 70px;
+	max-height: 20%;
+	position: bottom;
+	background-color: black;
+}
+div.php {
+	padding-left: 20px;
+}
+
+div.form {
+	margin: auto;
+	margin-top: -19px;
+	margin-bottom: 10px;
+	border: solid black 4px;
+	max-width: 65%;
+	min-width: 428px;
+	position: top;
+	background-color: white;
+	padding: 10px;
+	}
+div.machine {
+	margin: auto;
+	max-width: 80%;
+	height: 240px;
+	border: 0px;
+	background:  no-repeat center;
+}
+div.thankyou {
+	margin: auto;
+	max-width: 60%;
+	min-width: 300px;
+	height: auto;
+	border: dotted black 2px;
+}
+
+
+img.thanks {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	height: 200px;
+}
+/*---------below here is the form properties---------*/
+
+input {
+	color: lightgray;
+}
+
+input:focus {
+	color: black;
+}
+
+input[type=text] {
+	width: 65%;
+}
+
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset] {
+    width: 30%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*---------------Below this is the nav bar-----------*/
+ul {
+    list-style-type: none;
+
+    overflow: hidden;
+    background-color: green;
+	  position: bottom;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 6px 8px 8px 8px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #ff8d00;
+}
+.active {
+    background-color: #ff8d00;
+	color: white;
+	font-weight: bold;
+}
