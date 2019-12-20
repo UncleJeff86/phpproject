@@ -1,5 +1,5 @@
 # phpproject for php/sql class
-# created by jeff
+# Created by jeff
 
 Note: In connect.php read the comments to properly configure the connection.
 the credentials on top are to connect to a local server if HOSTED OFFLINE ON YOUR OWN SERVER.
