@@ -6,4 +6,8 @@ the credentials on top are to connect to a local server if HOSTED OFFLINE ON YOU
 The bottom credentials are to connect to the server if HOSTED ONLINE ON AZURE. This method is
 commented out by default as the Azure server has not been functioning as intended!
 
+If hosting on your own server:
+username 'root'
+password '' (blank)
+
 
