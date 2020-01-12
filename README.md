@@ -5,9 +5,15 @@ The credentials on top are to connect to a local server if HOSTED OFFLINE ON YOU
 The bottom credentials are to connect to the server if HOSTED ONLINE ON AZURE. This method is
 commented out by default as the Azure server has not been functioning as intended!
 
+The web app is now hosted online at:
+http://phpproject2329.epizy.com/working/
+
+
+
 <h2>To host on your own server:</h2>
 Copy the files to your servers htdocs or www folder on your local machine.
-The connect.php file is already configured to be viewed on a local machine via localhost.
+The connect.php file is already configured to be viewed on a local machine via localhost, however
+is commented out by default
 
 username 'root'
 password '' (blank)
