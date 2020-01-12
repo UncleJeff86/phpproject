@@ -15,18 +15,18 @@ password '' (blank)
 <h2>SQL Setup</h2>
 This part is necessary because the application is being hosted locally and must be created first,
 if it were online the database would be created this step would not be necessary.
-
 All necessary sql files are included in the folder 'MySQL Data'
 
 On your local server, open phpMyAdmin to run MySQL queries.
-To create the database, first run the script from '1_create_database.sql'
-  CREATE DATABASE localdb;
-  
-To create tables AND insert test data, run all the script from '1_insert_all.sql'
 
-OR
+To create the database: 
+First run the script from '1_create_database.sql'
+   
+To create tables:
+Run the script from the file 2_generate_tables.sql
 
-To create tables and insert data SEPARATELY, first run the script from 1_create_database.sql and
-then run the script from file '2_generate_tables.sql'and then scripts from '3_generate_data.sql'
+To insert test data:
+run the script from '3_generate_data.sql'
+
 
 Once the database has been created, view the application using index.php
