@@ -61,15 +61,15 @@ USE localdb;
 	("Pulveri", "Volvo", 83),
 	("Pulveri", "Volvo 240", 84);
 
-		INSERT INTO employees (Name)
+		INSERT INTO employees (empname,position)
 		VALUES
-		("Jeffrey Eboreime"),
-		("Mata La Paine"),
-		("Kolina Meteli"),
-		("Eilin Jalla"),
-		("Perun Apakaste"),
-		("Mik Roaalto"),
-		("Vira L. Linen"),
-		("Kat Totuuletin"),
-		("Ova Toikein");
+		("Jeffrey Eboreime","Machine Op."),
+		("Mata La Paine","Hands"),
+		("Kolina Meteli","Truck Driver"),
+		("Eilin Jalla","Hands"),
+		("Perun Apakaste","Machine Op."),
+		("Mik Roaalto","Hands"),
+		("Vira L. Linen","Machine Op."),
+		("Kat Totuuletin","Machine Op."),
+		("Ova Toikein","Manager");
 /*END Dummy Data*/
