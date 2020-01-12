@@ -24,7 +24,7 @@ To create the database, first run the script from '1_create_database.sql'
   
 To create tables AND insert test data, run all the script from '1_insert_all.sql'
 
-# OR
+OR
 
 To create tables and insert data SEPARATELY, first run the script from 1_create_database.sql and
 then run the script from file '2_generate_tables.sql'and then scripts from '3_generate_data.sql'
