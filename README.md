@@ -1,14 +1,13 @@
 # Created by jeff
 
-Note: In connect.php read the comments to properly configure the connection if hosting online!
-The credentials on top are to connect to a local server if HOSTED OFFLINE ON YOUR OWN SERVER.
-The bottom credentials are to connect to the server if HOSTED ONLINE ON AZURE. This method is
-commented out by default as the Azure server has not been functioning as intended!
+The credentials on top are to connect to a local server if HOSTED OFFLINE ON YOUR OWN SERVER, but are commented out by default.
+The bottom credentials are to connect to the server as HOSTED ON EPIZY, and are set by default.
 
 The web app is now hosted online at:
 http://phpproject2329.epizy.com/working/
 
 
+If you wish to host on your own server, follow the instructions below!
 
 <h2>To host on your own server:</h2>
 Copy the files to your servers htdocs or www folder on your local machine.
